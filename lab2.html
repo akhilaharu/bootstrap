@@ -1,0 +1,98 @@
+<!DOCTYPE hmtl>
+<html>
+<head>	 
+  <title>Bootstrap Lab2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .c1{
+    background-color: skyblue;
+  }
+  .c3{
+    background-color: red;
+  }
+  .col-md-6{
+    background-color: orange;
+  }
+	.col-md-3,.col-md-6 {
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+	}
+  .navbar{
+    margin-top: 300px;
+    margin-left: 100px;
+  }
+  a{
+    color: black;
+    font-size: 20px;
+  }
+  #id1{
+    color: white;
+  }
+  #id2{
+    width: 100%;
+    height: 25%;
+    padding-top: 20px;
+  }
+  .card{
+    margin-top: 60px;
+    width: 18rem;
+  }
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 col-sm-12 c1">
+				<nav class="navbar">
+  					<ul class="navbar-nav">
+    					<li class="nav-item">
+      						<a class="nav-link" href="#home">Home</a>
+    					</li>
+    					<li class="nav-item">
+      						<a class="nav-link" href="#details">Details</a>
+    					</li>
+    					<li class="nav-item">
+      						<a class="nav-link" href="#contact">Contact</a>
+    					</li>
+  					</ul>
+				</nav>			
+			</div>
+			<div class="col-md-6 col-sm-12">
+        <header>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjVKhYS4N6Nl72c51f78RbewZ7xpqBV7bZ28NZjzwvzb0LjNJTopsJwIJe5v9EtDQgBsM&usqp=CAU">
+        </header>
+        <div id="id1">
+				  <p id="home">
+            <img id="id2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlt8_qx_b6aOnvBat8acWO21C5MDu-wEHGwg&usqp=CAU">Mockaroo allows you to quickly and easily download large amounts of randomly generated test data based on the specifications you define.The wonderful thing about this platform is that no programming is needed, and you can download them in many different formats (e.g., SQL, XML, JSON, CSV) to be loaded directly into your test environment. Upon signing up, you can also create and save your schemas for future reuse.With Mockaroo, you can design your own mock APIs and deploy them in your private cloud by leveraging the Mockaroo docker image.However, if you decide to do it and you’re worried about the data you can just use a js array filled with data on the front end. https://mockaroo.com/ is a tool I use for a quick way to generate fake data for testing. It’s pretty useful and you can export data in several different forms including JSON.However, if you decide to do it and you’re worried about the data you can just use a js array filled with data on the front end. https://mockaroo.com/ is a tool I use for a quick way to generate fake data for testing. It’s pretty useful and you can export data in several different forms including JSON.</p>
+				  <h3>DETAILS</h3>
+				  <p id="details">What lies at the core of all application development, testing and actual deployment? Data; realistic, abundant and quickly generated! Any application developer knows how important it is to test an application with lots and lots of data. Having repetitive tests with different kinds of abundant data validates how robust and reliable an application will prove to be when real data to the tune of terabytes is fed into it. Will it be able to handle the pressure or will it crash?Though it is a crucial step in the application development process, testing with realistic data is often a tiresome task. Hand-filling data into a test environment one record at a time using the user interface can take days altogether. And if there’s a mistake or an unexpected result, to retest you have to undergo the same process again. Moreover, with one person filling in thousands of records, at one point, the data will start to become repetitive, following a particular pattern rather than being random.So how does one overcome these issues of random data generation?</p>
+				  <h3>CONTACT</h3>
+				  <p id="contact">customercare@mocarro.com</p>
+        </div>
+			</div>
+			<div class="col-md-3 c3 col-sm-12">
+				<div class="card">
+  					<img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTR1Sq_rZaHm51t1E1EYpIqGK8cEiMCrAJKA&usqp=CAU" alt="Card image cap">
+    				<h5 class="card-title">Latest News</h5>
+    				<p class="card-text">Mockaroo and Tonic: Partners in Mock Data Generation</p>
+    				<a href="https://www.tonic.ai/blog/tonic-mockaroo" class="btn btn-primary">Read More</a>
+  				</div>
+        <div class="card">
+  				  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvMOiv9enb7Q2z7RWwh6bRgVNjp3qnbQwIQ&usqp=CAU" alt="Card image cap">
+  					<div class="card-body">
+    				<h5 class="card-title">Mockaroo-APIs</h5>
+    				<p class="card-text">Mockaroo offers two different approaches for downloading data programmatically:</p>
+    				<a href="https://www.mockaroo.com/docs" class="btn btn-primary">Read More</a>
+    		</div>
+
+
+			</div>
+		</div>
+	</div>
+</body> 
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE hmtl>
+<html>
+<head>	 
+  <title>Bootstrap Lab3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+  .col-lg-4{
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  img{
+    width: 115px;
+    height: 115px;
+  }
+  #id1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    padding-bottom: 10px;
+  }
+  label{
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  fieldset{
+    padding: 20px 20px 50px;
+    background-color: #f6f8fa;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border: 1px solid #c9d1d9;
+  }
+  button{
+    width: 320px;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+
+  }
+  input{
+    border: 1px solid #c9d1d9;
+    width: 320px;
+    border-radius: 10px;
+  }
+  #id2{
+    float: right;
+  }
+  #id3{
+    border-radius: 10px;
+    border: 1px solid #c9d1d9;
+    padding: 20px 20px 10px;
+    margin-top: 20px;
+    background-color: white;
+  }
+  footer{
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  .class1{
+    padding-right: 12px;
+  }
+  #id4{
+    color: grey;
+  }
+  a{
+    color: #0969da;
+  }
+</style>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-4">
+        <div align="center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfu1mi6LAfuv1HSVFYUtOVgBsIB5f96Ui_Xw&usqp=CAU"/>
+          <h1 id="id1">Sign in to GitHub</h1>
+        </div>
+        <fieldset>
+          <label for:username>Username or email address</label>
+            <input type="textarea" name="Username">
+          <label for:password>Password</label>
+            <a id="id2"href="https://github.com/password_reset">Forgot password?</a><br>
+            <input type="Password" name="Password"><br>
+          <br>
+          <button id="signin" class="bg-success">Sign in</button>
+        </fieldset>
+        <fieldset id="id3"align="center">
+          <p>New to GitHub? <a href="https://github.com/signup?source=login">Create an account</a>.</p>
+        </fieldset>
+        <footer align="center">
+          <a class="class1" href="https://docs.github.com/en/github/site-policy/github-terms-of-service">Terms</a>
+          <a class="class1" href="https://docs.github.com/en/github/site-policy/github-privacy-statement">Privacy</a>
+          <a class="class1" href="https://github.com/security">Security</a>
+          <a id="id4" href="https://support.github.com/?tags=dotcom-direct">Contact GitHub</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
